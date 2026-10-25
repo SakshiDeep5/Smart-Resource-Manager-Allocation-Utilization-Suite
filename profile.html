@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"/>
+
+    <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+    rel="stylesheet"
+    />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "poppins",sans-serif;
+        }
+        body{
+            background-color: #f0f8ff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .profile-card{
+            background: #bfe6f1;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            padding: 30px;
+            width: 450px;
+            max-width: 100vh;
+            text-align: center;
+            transform: 0.3s ease, box-shadow 0.3s ease;
+            border-color: black;
+            justify-content: center;
+        }
+    
+        .profile-header img{
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 1.5rem;
+            border: 3px solid var(--accent-color);
+        }
+        h2{
+            font-size: 28px;
+            font-weight: 600;
+            color: #083c54;
+        }
+        .subtitle{
+            font-size: 14px;
+            margin-top: 8px;
+            margin-bottom: 8px;
+            color: #3b5966;
+        }
+    </style>
+</head>
+<body>
+        <div class="profile-card">
+            <div class="profile-header">
+            <img src="../pic.jpg" alt="pic">
+            <h2>Sakshi Deep</h2>
+            <p class="subtitle">MCA @Amity University | Web Developer</p>
+        </div>
+        <hr>
+        <div class="contact-details">
+            <p>
+               <i class="fa-solid fa-envelope text-primary me-2"></i>
+               Email
+            </p>
+            <p>
+                <i class="fa-solid fa-github"></i>
+                Github
+            </p>
+            <p>
+                <i class="fa-solid fa-linkedin"></i>
+                LinkedIn
+            </p>
+        </div>
+    </div>
+</body>
+</html>
